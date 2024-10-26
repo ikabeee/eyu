@@ -14,10 +14,11 @@ import { ExtracurricularActivitiesModule } from './extracurricular-activities/ex
 import { LanguageCoursesModule } from './language-courses/language-courses.module';
 import { AgreementsModule } from './agreements/agreements.module';
 import { EventsListModule } from './events_list/events_list.module';
+import { CommentsModule } from './comments/comments.module';
 
 
 
 @Module({
-  imports: [UniversitiesModule, ScolarshipsModule, MunicipalitiesModule, AdminsModule, UsersModule, AnnouncementsModule, StudentsServicesModule, InfrastructureModule, JobOpportunitiesModule, CareersModule, SubjectsModule, ExtracurricularActivitiesModule, LanguageCoursesModule, AgreementsModule, EventsListModule],
+  imports: [UniversitiesModule, ScolarshipsModule, MunicipalitiesModule, AdminsModule, UsersModule, AnnouncementsModule, StudentsServicesModule, InfrastructureModule, JobOpportunitiesModule, CareersModule, SubjectsModule, ExtracurricularActivitiesModule, LanguageCoursesModule, AgreementsModule, EventsListModule, CommentsModule],
 })
 export class AppModule {}
