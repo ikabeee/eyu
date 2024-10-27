@@ -1,10 +1,6 @@
 import { Module } from '@nestjs/common';
 import { UniversitiesModule } from './universities/universities.module';
-<<<<<<< HEAD
 import { ScolarshipsModule } from './scholarships/scholarships.module';
-=======
-import { ScolarshipsModule } from './scholarships/scolarships.module';
->>>>>>> feature/auth_module
 import { MunicipalitiesModule } from './municipalities/municipalities.module';
 import { AdminsModule } from './admins/admins.module';
 import { UsersModule } from './users/users.module';
