@@ -15,7 +15,7 @@ import { AgreementsModule } from './agreements/agreements.module';
 import { EventsListModule } from './events_list/events_list.module';
 import { CommentsModule } from './comments/comments.module';
 import { AuthModule } from './auth/auth.module';
-import { ScholarshipsModule } from './scholarships/scolarships.module';
+import { ScholarshipsModule } from './scholarships/scholarships.module';
 
 
 
