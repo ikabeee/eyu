@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { UniversitiesModule } from './universities/universities.module';
-import { ScolarshipsModule } from './scolarships/scolarships.module';
+import { ScolarshipsModule } from './scholarships/scholarships.module';
 import { MunicipalitiesModule } from './municipalities/municipalities.module';
 import { AdminsModule } from './admins/admins.module';
 import { UsersModule } from './users/users.module';
