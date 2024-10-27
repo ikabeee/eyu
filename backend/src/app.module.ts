@@ -1,10 +1,5 @@
 import { Module } from '@nestjs/common';
 import { UniversitiesModule } from './universities/universities.module';
-<<<<<<< HEAD
-import { ScolarshipsModule } from './scholarships/scholarships.module';
-=======
-import { ScolarshipsModule } from './scholarships/scolarships.module';
->>>>>>> feature/auth_module
 import { MunicipalitiesModule } from './municipalities/municipalities.module';
 import { AdminsModule } from './admins/admins.module';
 import { UsersModule } from './users/users.module';
@@ -20,10 +15,11 @@ import { AgreementsModule } from './agreements/agreements.module';
 import { EventsListModule } from './events_list/events_list.module';
 import { CommentsModule } from './comments/comments.module';
 import { AuthModule } from './auth/auth.module';
+import { ScholarshipsModule } from './scholarships/scolarships.module';
 
 
 
 @Module({
-  imports: [UniversitiesModule, ScolarshipsModule, MunicipalitiesModule, AdminsModule, UsersModule, AnnouncementsModule, StudentsServicesModule, InfrastructureModule, JobOpportunitiesModule, CareersModule, SubjectsModule, ExtracurricularActivitiesModule, LanguageCoursesModule, AgreementsModule, EventsListModule, CommentsModule, AuthModule],
+  imports: [UniversitiesModule, ScholarshipsModule, MunicipalitiesModule, AdminsModule, UsersModule, AnnouncementsModule, StudentsServicesModule, InfrastructureModule, JobOpportunitiesModule, CareersModule, SubjectsModule, ExtracurricularActivitiesModule, LanguageCoursesModule, AgreementsModule, EventsListModule, CommentsModule, AuthModule],
 })
 export class AppModule {}
